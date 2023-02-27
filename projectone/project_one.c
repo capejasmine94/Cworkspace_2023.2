@@ -31,7 +31,7 @@ int main(void){
     printf("범죄명 : %s\n", what);
     return : 0 ; */
     //회원정보 예제 2
-    char name[100];
+   /* char name[100];
     printf("이름을 입력하세요 : ");
     scanf("%s", name);
     
@@ -57,5 +57,34 @@ int main(void){
     printf("나이 : %d\n", age);
     printf("생일 : %s\n", birthday);
     printf("신발사이즈 : %d\n", footSize);
-    return 0;
-}
+    return 0;*/
+
+    char name[200];
+    printf("이름 입력 : " );
+    scanf("%s", name);
+
+    char ID[200];
+    printf("아이디 입력 : " );
+    scanf("%s", ID);
+
+    int age ;
+    printf("나이 입력 : " );
+    scanf("%d", &age);
+
+    int birthday ;
+    printf("생일 입력 : " );
+    scanf("%d", &birthday);
+
+    int footSize ;
+    printf("발사이즈 입력 : " );
+    scanf("%d", &footSize);
+
+    printf("\n\n-- 회원정보 --\n\n");
+    printf("이름 : %s\n", name);
+    printf("아이디 : %s\n", ID);
+    printf("나이 :  %d,\n", age);
+    printf("생일 : %d\n", birthday);
+    printf("발 사이즈 : %d\n", footSize);
+
+} 
+
