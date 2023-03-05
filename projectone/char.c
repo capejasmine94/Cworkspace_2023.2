@@ -13,4 +13,4 @@ int main(void){
     printf("세번째 숫자 : %s\n", A);
     printf("네번째 숫자 : %s\n", B);
     return 0;
-}
+} 
