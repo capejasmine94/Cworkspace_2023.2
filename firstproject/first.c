@@ -16,6 +16,7 @@ int main(void)
     {
         int x = 1;
         x = 10 ;
-        printf("Hello, World!\n");
+        printf("Hellomm World!\n");
         return ;
     }
+
